@@ -46,6 +46,25 @@ Day 2: 3rd February:
 		- cost function for logistic regression is negative log likeli hood
 		- If the target is assigned low prob, then cost will be high, if the target is assigned high prob, then cost is low.
 		
+		
+Day 3: 4th February:
+
+	- KNN model
+		- no training required, the training data points acts as training the model
+		- no parameters to tune
+		- pick the nearest K value to determine the target class
+		- for regression problems, average of the K nearest data points
+		- standadize the data so that distance will be calcualted correctly
+		
+	- Normalization vs. standardization
+		- https://medium.com/@zaidalissa/standardization-vs-normalization-da7a3a308c64
+		- standardization is to make the data in the gaussian distribution, i.e. mean = 0, std = 1
+		- standardization = (X-mean)/std
+		
+		- Normalization: Min, max scaling
+		- (X - min)/ Max - Min
+		- result values are between 0 and 1
+		
 	
 	
 	
