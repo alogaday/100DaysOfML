@@ -67,6 +67,8 @@ Day 3: 4th February:
 	- (X - min)/ Max - Min
 	- result values are between 0 and 1
 	
-	
-	
+Day 4: 5th February:
+
+- KNN on MNIST dataset
+- 10000 dataset and quiz pending
 	
