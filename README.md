@@ -71,4 +71,19 @@ Day 4: 5th February:
 
 - KNN on MNIST dataset
 - 10000 dataset and quiz pending
+
+Day 1: 22nd Feb
+
+- SVM
+    
+    - Max margin classifier
+    - Soft margin classifier when the points are not separable
+        - Regularization parameter C - Large values of C means classifies more points correctly with less margin, small values of C means, misclassifies more points with higher margin
+    - Kernal methods - when the points are not linearly separable
+        - maps the data to higher dimension so that it can be linearly separable in the higher dimension, when we look back to normal dimension, the separator becomes non linear
+        - gamma controls the range of points to influence on the separator
+    - SVM quiz pending
+    
+    
+    
 	
