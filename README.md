@@ -87,6 +87,8 @@ Day 1: 22nd Feb
 
 Date: 28th Feb
 
+- Naive Bayes
+
     - Parametric models vs. Non parametric model
         - Parametric models will have an equation with parameters to predict
             - example: logistic regression
