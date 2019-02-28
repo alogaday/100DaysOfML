@@ -84,6 +84,16 @@ Day 1: 22nd Feb
         - gamma controls the range of points to influence on the separator
     - SVM quiz pending
     
-    
+
+Date: 28th Feb
+
+    - Parametric models vs. Non parametric model
+        - Parametric models will have an equation with parameters to predict
+            - example: logistic regression
+        - Non parametric model, no parameters
+            - example: KNN
+    - Naive bayes algo
+        - it's naive because of its assumtion --> all features are independent of each other
+         - P(y|X) = P(y) * P(X/y) / P(X)
     
 	
