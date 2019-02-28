@@ -98,4 +98,10 @@ Date: 28th Feb
         - it's naive because of its assumtion --> all features are independent of each other
          - P(y|X) = P(y) * P(X/y) / P(X)
     
-	
+
+- AA
+
+    - till page num 130
+        - DB vista rules: similar to vista rules but can be mapped to a generic values using FTP uploads
+            - example: sales person name --> sales region mapping
+            - sales person can change but region can be used as a key for the mapping
