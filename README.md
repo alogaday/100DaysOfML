@@ -105,3 +105,16 @@ Date: 28th Feb
         - DB vista rules: similar to vista rules but can be mapped to a generic values using FTP uploads
             - example: sales person name --> sales region mapping
             - sales person can change but region can be used as a key for the mapping
+            
+Date: 4th March
+
+- AA
+
+    - till page num 150
+        - traffic vars, doesn't get retained
+        - two traffic vars, on same page can be broken down; if only one traffic var on that page, then breakdown shows unspecified
+        - traffic vars breakdown is called correlation
+        - conv vars breakdown is sub-relation
+        - at the time of success event, if one or both of the eVars doesn't have any value, then it will show it in None row item
+        - pathing reports are based on visit level
+        - pathing report for cross visit is not possible as pathing is done at the visit level
