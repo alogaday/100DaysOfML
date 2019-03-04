@@ -118,3 +118,16 @@ Date: 4th March
         - at the time of success event, if one or both of the eVars doesn't have any value, then it will show it in None row item
         - pathing reports are based on visit level
         - pathing report for cross visit is not possible as pathing is done at the visit level
+		- To-do:
+			- <data sources, importing online data, stitching offline vs. online data>
+
+- ML
+        - Cheatsheets: https://elitedatascience.com/vault
+        - https://elitedatascience.com/machine-learning-interview-questions-answers#big-picture
+        - Machine-Learning-A-Z-Q-A.pdf - <START THIS>
+        - Next steps for projects:
+            - list of projects in digital
+                - visitor scoring <Get model walk through - internal>
+                - segmentation
+                - churn analysis
+                - pathing
