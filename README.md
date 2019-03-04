@@ -121,7 +121,8 @@ Date: 4th March
 		- To-do:
     		- <data sources, importing online data, stitching offline vs. online data>
 
-- ML
+- ML: 
+  
         - Cheatsheets: https://elitedatascience.com/vault
         - https://elitedatascience.com/machine-learning-interview-questions-answers#big-picture
         - Machine-Learning-A-Z-Q-A.pdf - <START THIS>
