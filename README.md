@@ -119,15 +119,31 @@ Date: 4th March
         - pathing reports are based on visit level
         - pathing report for cross visit is not possible as pathing is done at the visit level
 		- To-do:
-    		- <data sources, importing online data, stitching offline vs. online data>
+			- <data sources, importing online data, stitching offline vs. online data>
 
-- ML  
+- ML
         - Cheatsheets: https://elitedatascience.com/vault
         - https://elitedatascience.com/machine-learning-interview-questions-answers#big-picture
         - Machine-Learning-A-Z-Q-A.pdf - <START THIS>
-        - Next steps for projects
+        - Next steps for projects:
             - list of projects in digital
                 - visitor scoring <Get model walk through - internal>
                 - segmentation
                 - churn analysis
                 - pathing
+				
+Date: 6th March
+
+- ML
+
+	- segmentation for visits:
+		- visit based segmentation, identify K clusters and do the visitor profiling based on the clustered data
+		- visit based, so derive visit id >> visitor id + visit number, Question: check if each row is a visit based (i.e. hits data is clubed for that visit?)
+		- intense researchers vs. focused customers vs others
+		- check the distribution of the data for each of these segments
+		- how much % of leads comes from each of these segments, and conversion rate of each of the segment
+		
+	- visitor scoring
+		- for visitor scoring, use logistic regression (supervised algo)
+		- predicts weather visitor converts or not
+		- this should also be done based on the visits based, (if we do at visitor based, the duration will be very large and we don't know when visitor data will end, but for visit the duration or hits are limited).
