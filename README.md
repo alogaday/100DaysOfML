@@ -149,3 +149,30 @@ Date: 6th March
 		- for visitor scoring, use logistic regression (supervised algo)
 		- predicts weather visitor converts or not
 		- this should also be done based on the visits based, (if we do at visitor based, the duration will be very large and we don't know when visitor data will end, but for visit the duration or hits are limited).
+
+Date: 9th March
+
+- AA
+
+	- Multi suite tagging - when data is sent to more than one report suite
+	- concept of global report suite: data gets send to global report suite as a common report suite for all the countries
+		- unique visitor identification happens across the regions
+	- SAINT (site catalyst attributes importing and naming tool) - for classification of the data
+	- Merchandising variables:
+		- https://analyticsdemystified.com/adobe-analytics/merchandising-evars-omniture/
+		- connecting a different eVar value to the product at the time success event takes place
+		- prod syntax
+		- prod var syntax: cat;prod;quantity;incrementor;merchadising
+		- conversion syntax
+		- a traditional eVar can't associate a different value for each product; a traditional variable assigns only for value for all the products, i.e if I search X and add prod A to cart, search Y and prod B to cart, then I order A and B, search term Y gets the credit as it is last allocation traditional evars-omniture/
+		- binding event >> I searched for X and then after 2 pages I reached the product A, now I would like to associate the merchandising value of the eVar to the product I viewed, I could assign prodview as the binding event (or scAdd). Basically, Adobe Analytics will tie that merchanding value of the eVar to that specific production at the time of success event
+	- Participation:
+		- participation is applied for an event, if it's enabled then the value will be allocated to all the eVars participated before this success event takes place
+		- it is similar to linear allocation of the conversion variable, however linear allocation devides the success event equally, but participation gives the full credit for all the eVars which led to that specific conversion event
+
+	- question: click map and activity map
+	- question: add event to the pages report?
+	- Pagetype >> to track error pages, page not found report, populates
+		- s.pageType = "errorPage"; s.pageName = "" (can be blank to capture URL, else pass some string 404); s.pageName = "404 Page" + window.location.href
+	- question: list prop
+	- next steps: business practitioner sample questions
