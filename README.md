@@ -136,14 +136,14 @@ Date: 6th March
 
 - ML
 
-	- segmentation for visits:
-		- visit based segmentation, identify K clusters and do the visitor profiling based on the clustered data
-		- visit based, so derive visit id >> visitor id + visit number, Question: check if each row is a visit based (i.e. hits data is clubed for that visit?)
-		- intense researchers vs. focused customers vs others
-		- check the distribution of the data for each of these segments
-		- how much % of leads comes from each of these segments, and conversion rate of each of the segment
+		- segmentation for visits:
+			- visit based segmentation, identify K clusters and do the visitor profiling based on the clustered data
+			- visit based, so derive visit id >> visitor id + visit number, Question: check if each row is a visit based (i.e. hits data is clubed for that visit?)
+			- intense researchers vs. focused customers vs others
+			- check the distribution of the data for each of these segments
+			- how much % of leads comes from each of these segments, and conversion rate of each of the segment
 		
-	- visitor scoring
-		- for visitor scoring, use logistic regression (supervised algo)
-		- predicts weather visitor converts or not
-		- this should also be done based on the visits based, (if we do at visitor based, the duration will be very large and we don't know when visitor data will end, but for visit the duration or hits are limited).
+		- visitor scoring
+			- for visitor scoring, use logistic regression (supervised algo)
+			- predicts weather visitor converts or not
+			- this should also be done based on the visits based, (if we do at visitor based, the duration will be very large and we don't know when visitor data will end, but for visit the duration or hits are limited).
