@@ -124,15 +124,15 @@ Date: 4th March
 - ML
 
 	- some notes:		
-			- Cheatsheets: https://elitedatascience.com/vault
-			- https://elitedatascience.com/machine-learning-interview-questions-answers#big-picture
-			- Machine-Learning-A-Z-Q-A.pdf - <START THIS>
-			- Next steps for projects:
-			- list of projects in digital
-			- visitor scoring <Get model walk through - internal>
-			- segmentation
-			- churn analysis
-			- pathing
+		- Cheatsheets: https://elitedatascience.com/vault
+		- https://elitedatascience.com/machine-learning-interview-questions-answers#big-picture
+		- Machine-Learning-A-Z-Q-A.pdf - <START THIS>
+		- Next steps for projects:
+		- list of projects in digital
+		- visitor scoring <Get model walk through - internal>
+		- segmentation
+		- churn analysis
+		- pathing
 				
 Date: 6th March
 
