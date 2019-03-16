@@ -176,3 +176,15 @@ Date: 9th March
 		- s.pageType = "errorPage"; s.pageName = "" (can be blank to capture URL, else pass some string 404); s.pageName = "404 Page" + window.location.href
 	- question: list prop
 	- next steps: business practitioner sample questions
+	
+Date: March 10
+
+- AA
+	- Business practitioner certification prep:
+		- conducting business analysis
+			- conversion funnels
+			- interpret solution design
+			- identify outliers and anomalies in the reports
+		- reporting and dashboarding
+		- segmenting
+		- Administring and troubleshooting
